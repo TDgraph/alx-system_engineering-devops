@@ -1,2 +1,3 @@
-#!/bin/bash
+i#!/bin/bash
 -R ugo+X
+
