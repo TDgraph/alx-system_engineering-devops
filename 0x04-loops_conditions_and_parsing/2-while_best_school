@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#script displays Best school 10 t imes
+i=1
+while [ "$i" -le 10 ]
+do
+	echo "Best School"
+	i=$(( i + 1 ))
+done

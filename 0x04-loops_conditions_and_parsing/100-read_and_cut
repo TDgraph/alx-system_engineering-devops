@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#displays hte content of the file like password
+while IFS= read -r content
+do
+	echo "$cintents" | cut -f 1,3,6 -d ':'
+done < "/etc/passwd"
