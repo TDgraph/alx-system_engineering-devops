@@ -1,4 +1,4 @@
-# A puppet that fixes a wordpress site changing the error from 500 to 200
+# the Puppet manifest fixes the web stack: Apache is returning a 200
 # editing the mistyped .phpp to php in the settings.php file
 
 exec { 'fix-wordpress-server-erroe';
